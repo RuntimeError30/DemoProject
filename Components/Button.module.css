@@ -1,0 +1,26 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
+  .text {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+  }
+  
+  

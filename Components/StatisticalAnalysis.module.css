@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .titleBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 2.5rem;
+    background-color: #f3f4f6;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .titleBarLeft, .titleBarRight {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .titleText {
+    font-size: 0.875rem;
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+  
+  .spreadsheet {
+    display: grid;
+  }
+  
+  .headerRow {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: auto repeat(3, 1fr);
+    background-color: #f3f4f6;
+  }
+  
+  .headerCell {
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 500;
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .dataRow {
+    display: grid;
+    grid-template-columns: auto repeat(3, 1fr);
+  }
+  
+  .rowHeader {
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #f3f4f6;
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .dataCell {
+    position: relative;
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .cellInput {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .cellInput:focus {
+    outline: 2px solid #3b82f6;
+  }
+  
+  .outputPanel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .outputContent {
+    text-align: center;
+    color: #6b7280;
+  }
+  
+  .smallText {
+    font-size: 0.875rem;
+  }
+  
+  .statusBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    height: 2rem;
+    background-color: #f3f4f6;
+    border-top: 1px solid #e5e7eb;
+    font-size: 0.75rem;
+    color: #6b7280;
+  }
+  
+  .statusLeft, .statusRight {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  

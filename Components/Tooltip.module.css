@@ -1,0 +1,18 @@
+.tooltipContainer {
+    position: relative;
+  }
+  
+  .tooltipContent {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  
+  

@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .leftPanel, .rightPanel {
+    overflow: hidden;
+  }
+  
+  .resizeHandle {
+    width: 4px;
+    background-color: #e5e7eb;
+    cursor: col-resize;
+  }
+  
+  .resizeHandle:hover {
+    background-color: #d1d5db;
+  }
+  
+  
